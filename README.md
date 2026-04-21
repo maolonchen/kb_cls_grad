@@ -73,8 +73,8 @@ The server starts at `http://localhost:<?>`. API docs available at `/docs`.
 
 ### Knowledge Base
 
-| Method | Endpoint | Description |
-|---|---|---|
+| Method | Description |
+|---|---|
 | POST | Upload files to knowledge base |
 | POST | Delete files from knowledge base |
 | POST | Rebuild vector database |
@@ -87,8 +87,8 @@ The server starts at `http://localhost:<?>`. API docs available at `/docs`.
 
 ### Specification Interpretation
 
-| Method | Endpoint | Description |
-|---|---|---|
+| Method | Description |
+|---|---|
 | POST | Create interpretation task (full pipeline) |
 | POST | Create task (up to final JSONL) |
 | GET | Get task results |
