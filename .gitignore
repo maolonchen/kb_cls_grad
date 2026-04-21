@@ -16,6 +16,7 @@ interpretation_specification/src/other/*
 notebooks
 
 ./__init__.py
+README_CN.md
 
 # Virtual environments
 .venv
