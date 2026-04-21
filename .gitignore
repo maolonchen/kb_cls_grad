@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+
+cache/
+test/
+data/processed/*
+data/db/*
+logs/*
+interpretation_specification/classification_and_grading/*
+interpretation_specification/data/processed/*
+interpretation_specification/data/raw/*
+interpretation_specification/db/*
+interpretation_specification/logs/*
+interpretation_specification/src/other/*
+
+notebooks
+
+./__init__.py
+
+# Virtual environments
+.venv
+uv*
+
+.claude
+.vscode
+
+run_with_logging.sh
+docker-compose.yml

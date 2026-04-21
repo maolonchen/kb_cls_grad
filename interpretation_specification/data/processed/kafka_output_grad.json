@@ -1,0 +1,22 @@
+[
+  {
+    "DataGrading": "一般级-第4级",
+    "Priority": 1,
+    "applicableSceneType": 1
+  },
+  {
+    "DataGrading": "一般级-第3级",
+    "Priority": 2,
+    "applicableSceneType": 1
+  },
+  {
+    "DataGrading": "一般级-第2级",
+    "Priority": 3,
+    "applicableSceneType": 1
+  },
+  {
+    "DataGrading": "一般级-第1级",
+    "Priority": 4,
+    "applicableSceneType": 1
+  }
+]

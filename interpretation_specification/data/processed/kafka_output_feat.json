@@ -1,0 +1,2326 @@
+[
+  {
+    "DataElement": "客户姓名",
+    "DataClassification": "A1-1 自然人身份标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "证件类型",
+    "DataClassification": "A1-1 自然人身份标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "证件号码",
+    "DataClassification": "A1-1 自然人身份标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "驾照编号",
+    "DataClassification": "A1-1 自然人身份标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "银行账户",
+    "DataClassification": "A1-1 自然人身份标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "联系电话",
+    "DataClassification": "A1-2 网络身份标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "邮箱地址",
+    "DataClassification": "A1-2 网络身份标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "网络客户编号",
+    "DataClassification": "A1-2 网络身份标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "即时通信账号",
+    "DataClassification": "A1-2 网络身份标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "网络社交客户账号",
+    "DataClassification": "A1-2 网络身份标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "客户职业",
+    "DataClassification": "A1-3 客户基本信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "工作单位",
+    "DataClassification": "A1-3 客户基本信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "年龄",
+    "DataClassification": "A1-3 客户基本信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "性别",
+    "DataClassification": "A1-3 客户基本信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "籍贯",
+    "DataClassification": "A1-3 客户基本信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "兴趣爱好",
+    "DataClassification": "A1-3 客户基本信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "身份证影印件",
+    "DataClassification": "A1-4 实体身份证明",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "护照影印件",
+    "DataClassification": "A1-4 实体身份证明",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "驾照影印件",
+    "DataClassification": "A1-4 实体身份证明",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "营业执照影印件",
+    "DataClassification": "A1-4 实体身份证明",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "基因",
+    "DataClassification": "A1-4 实体身份证明",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "指纹",
+    "DataClassification": "A1-4 实体身份证明",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "声纹",
+    "DataClassification": "A1-4 实体身份证明",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "掌纹",
+    "DataClassification": "A1-4 实体身份证明",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "耳廓",
+    "DataClassification": "A1-4 实体身份证明",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "虹膜",
+    "DataClassification": "A1-4 实体身份证明",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "面部识别特征",
+    "DataClassification": "A1-4 实体身份证明",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "个人种族",
+    "DataClassification": "A1-5 客户私密信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "居住地址",
+    "DataClassification": "A1-5 客户私密信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "宗教信仰",
+    "DataClassification": "A1-5 客户私密信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "基因",
+    "DataClassification": "A1-5 客户私密信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "个人健康",
+    "DataClassification": "A1-5 客户私密信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "私人生活",
+    "DataClassification": "A1-5 客户私密信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "客户实体编号",
+    "DataClassification": "A1-6 集团客户信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "集团客户编号",
+    "DataClassification": "A1-6 集团客户信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "集团客户名称",
+    "DataClassification": "A1-6 集团客户信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "集团客户负责人",
+    "DataClassification": "A1-6 集团客户信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "联系人信息",
+    "DataClassification": "A1-6 集团客户信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "IDC/ISP企业客户信息",
+    "DataClassification": "A1-6 集团客户信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "集团客户所在省市",
+    "DataClassification": "A1-6 集团客户信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "集团签约时间",
+    "DataClassification": "A1-6 集团客户信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "协议到期时间",
+    "DataClassification": "A1-6 集团客户信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "客户网络身份密码",
+    "DataClassification": "A2-1 客户密码及关联信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "手机客服密码",
+    "DataClassification": "A2-1 客户密码及关联信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "139邮箱密码",
+    "DataClassification": "A2-1 客户密码及关联信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "飞信密码",
+    "DataClassification": "A2-1 客户密码及关联信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "移动wlan密码",
+    "DataClassification": "A2-1 客户密码及关联信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "和包交易密码",
+    "DataClassification": "A2-1 客户密码及关联信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "密码保护答案",
+    "DataClassification": "A2-1 客户密码及关联信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "短信",
+    "DataClassification": "B1-1 服务内容数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "彩信",
+    "DataClassification": "B1-1 服务内容数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "话音",
+    "DataClassification": "B1-1 服务内容数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "飞信",
+    "DataClassification": "B1-1 服务内容数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "融合通信",
+    "DataClassification": "B1-1 服务内容数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "139邮箱",
+    "DataClassification": "B1-1 服务内容数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "数据文件",
+    "DataClassification": "B1-1 服务内容数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "文字",
+    "DataClassification": "B1-1 服务内容数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "多媒体",
+    "DataClassification": "B1-1 服务内容数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "客户通讯录",
+    "DataClassification": "B1-2 联系人信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "好友列表",
+    "DataClassification": "B1-2 联系人信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "家庭网",
+    "DataClassification": "B1-2 联系人信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "V网列表",
+    "DataClassification": "B1-2 联系人信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "群组列表",
+    "DataClassification": "B1-2 联系人信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "品牌",
+    "DataClassification": "C1-1 业务订购关系",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "套餐定制",
+    "DataClassification": "C1-1 业务订购关系",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "139邮箱",
+    "DataClassification": "C1-1 业务订购关系",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "飞信",
+    "DataClassification": "C1-1 业务订购关系",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "和通讯录",
+    "DataClassification": "C1-1 业务订购关系",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "来显",
+    "DataClassification": "C1-1 业务订购关系",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "彩铃",
+    "DataClassification": "C1-1 业务订购关系",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "和包",
+    "DataClassification": "C1-1 业务订购关系",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "语音",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "短信",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "彩信",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "宽带",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "上网日志详单",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "2G/3G/4G/5G客户面XDR",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "信令面XDR",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "主叫号码",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "主叫归属地",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "被叫号码",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "开始通信时间",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "时长",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "流量",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "Cookie内容",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "上网日志",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "连接APP",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "网址",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "网购记录",
+    "DataClassification": "C1-2 服务记录和日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "停开机",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "入网时间",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "在网时间",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "积分",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "预存款",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "信用等级",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "缴费情况",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "付费方式",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "和包余额",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "交易历史记录",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "每月出账的固定费用",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "通信费用",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "欠费信息",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "数据费用",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "代收费用",
+    "DataClassification": "C1-3 消费信息和账单",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "小区代码",
+    "DataClassification": "C1-4 位置数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "基站号",
+    "DataClassification": "C1-4 位置数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "基站经纬度坐标",
+    "DataClassification": "C1-4 位置数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "地区代码",
+    "DataClassification": "C1-4 位置数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "城市代码",
+    "DataClassification": "C1-4 位置数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "垃圾短信",
+    "DataClassification": "C1-5 违规记录数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "骚扰电话",
+    "DataClassification": "C1-5 违规记录数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "黑名单",
+    "DataClassification": "C1-5 违规记录数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "灰名单",
+    "DataClassification": "C1-5 违规记录数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "唯一设备识别码IMEI",
+    "DataClassification": "C2-1 终端设备标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "设备MAC地址",
+    "DataClassification": "C2-1 终端设备标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "SIM卡IMSI",
+    "DataClassification": "C2-1 终端设备标识",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "终端型号",
+    "DataClassification": "C2-2 终端设备资料",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "终端品牌",
+    "DataClassification": "C2-2 终端设备资料",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "终端厂商",
+    "DataClassification": "C2-2 终端设备资料",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "OS类型",
+    "DataClassification": "C2-2 终端设备资料",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "预置安装软件应用",
+    "DataClassification": "C2-2 终端设备资料",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "使用时长",
+    "DataClassification": "C2-2 终端设备资料",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "客户偏好",
+    "DataClassification": "D1-1 客户使用习惯和行为分析数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "消费习惯",
+    "DataClassification": "D1-1 客户使用习惯和行为分析数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "通话",
+    "DataClassification": "D1-1 客户使用习惯和行为分析数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "短信频次",
+    "DataClassification": "D1-1 客户使用习惯和行为分析数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "上网数量",
+    "DataClassification": "D1-1 客户使用习惯和行为分析数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "频次",
+    "DataClassification": "D1-1 客户使用习惯和行为分析数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "客户网络行为",
+    "DataClassification": "D1-2 客户上网行为相关统计分析数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "客户画像",
+    "DataClassification": "D1-2 客户上网行为相关统计分析数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "网络建设",
+    "DataClassification": "E1-1 网络规划类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "网络规划研究",
+    "DataClassification": "E1-1 网络规划类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "咨询",
+    "DataClassification": "E1-1 网络规划类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "网络拓扑结构",
+    "DataClassification": "E1-2 投资计划类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "核心技术",
+    "DataClassification": "E1-2 投资计划类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "设备采购",
+    "DataClassification": "E1-2 投资计划类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "位置",
+    "DataClassification": "E1-2 投资计划类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "性能",
+    "DataClassification": "E1-2 投资计划类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "供应商",
+    "DataClassification": "E1-2 投资计划类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "项目建设方案",
+    "DataClassification": "E1-3 项目管理类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "可研文件",
+    "DataClassification": "E1-3 项目管理类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "设计文件",
+    "DataClassification": "E1-3 项目管理类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "资源机架",
+    "DataClassification": "E2-1 公共资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "DDM",
+    "DataClassification": "E2-1 公共资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "DDF",
+    "DataClassification": "E2-1 公共资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "ODM",
+    "DataClassification": "E2-1 公共资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "ODF",
+    "DataClassification": "E2-1 公共资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "光交箱内ODF数量",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "光交箱内跳线数量",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "光交箱内光缆数量",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "光交箱内ODF芯数",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "光交箱内跳线芯数",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "光交箱内光缆芯数",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "光交箱内ODF长度",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "光交箱内跳线长度",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "光交箱内光缆长度",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "光交箱内分支接头盒",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "传输内线机架",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "传输内线设备",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "传输内线ODF",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "传输内线DDF",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "传输内线光缆",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "传输内线跳线",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "传输内线标签",
+    "DataClassification": "E2-2 传输资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "板卡",
+    "DataClassification": "E2-3 承载网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "物理端口",
+    "DataClassification": "E2-3 承载网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "逻辑端口",
+    "DataClassification": "E2-3 承载网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "物理链路",
+    "DataClassification": "E2-3 承载网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "逻辑链路",
+    "DataClassification": "E2-3 承载网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "业务信息-IP 承载网",
+    "DataClassification": "E2-3 承载网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "网段",
+    "DataClassification": "E2-3 承载网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "IP 地址",
+    "DataClassification": "E2-3 承载网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "VLAN 信息",
+    "DataClassification": "E2-3 承载网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "分组域",
+    "DataClassification": "E2-4 核心网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "电路域",
+    "DataClassification": "E2-4 核心网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "IMS系统",
+    "DataClassification": "E2-4 核心网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "IP地址",
+    "DataClassification": "E2-4 核心网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "设备信息",
+    "DataClassification": "E2-4 核心网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "信令链路",
+    "DataClassification": "E2-4 核心网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "WLAN",
+    "DataClassification": "E2-5 接入网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "无线网",
+    "DataClassification": "E2-5 接入网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "有线网资源",
+    "DataClassification": "E2-5 接入网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "AC",
+    "DataClassification": "E2-5 接入网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "AP",
+    "DataClassification": "E2-5 接入网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "热点",
+    "DataClassification": "E2-5 接入网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "交换机",
+    "DataClassification": "E2-5 接入网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "基站设备",
+    "DataClassification": "E2-5 接入网资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "资源池",
+    "DataClassification": "E2-7 云资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "业务",
+    "DataClassification": "E2-7 云资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "服务器",
+    "DataClassification": "E2-7 云资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "虚拟机 VM",
+    "DataClassification": "E2-7 云资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "存储设备",
+    "DataClassification": "E2-7 云资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "负载均衡",
+    "DataClassification": "E2-7 云资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "设备及软件信息",
+    "DataClassification": "E2-7 云资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "生命周期状态",
+    "DataClassification": "E2-7 云资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "所属机房",
+    "DataClassification": "E2-7 云资源类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "网络路由信息",
+    "DataClassification": "E3-2 路由",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "系统路由信息",
+    "DataClassification": "E3-2 路由",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "网段",
+    "DataClassification": "E3-3 网段、网址、VLAN 划分",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "网址",
+    "DataClassification": "E3-3 网段、网址、VLAN 划分",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "VLAN分配",
+    "DataClassification": "E3-3 网段、网址、VLAN 划分",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "VLAN划分",
+    "DataClassification": "E3-3 网段、网址、VLAN 划分",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "设备监测",
+    "DataClassification": "E3-4 设备监测、告警",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "告警",
+    "DataClassification": "E3-4 设备监测、告警",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "网络运维相关设备信令监测",
+    "DataClassification": "E3-5 信令监测",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "原始XDR",
+    "DataClassification": "E3-5 信令监测",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "操作日志数据",
+    "DataClassification": "E3-7 运维日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "工单处理记录",
+    "DataClassification": "E3-7 运维日志",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "运维系统的账号列表",
+    "DataClassification": "E3-8 运维系统账号密码等",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "运维系统的密码",
+    "DataClassification": "E3-8 运维系统账号密码等",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "安全核查报告",
+    "DataClassification": "E4-1 安全审计记录",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "核查意见",
+    "DataClassification": "E4-1 安全审计记录",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "核查决定",
+    "DataClassification": "E4-1 安全审计记录",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "核查结果通报",
+    "DataClassification": "E4-1 安全审计记录",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "应急预案",
+    "DataClassification": "E4-2 网络安全应急预案",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "应急演练方案",
+    "DataClassification": "E4-2 网络安全应急预案",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "应急物资管理",
+    "DataClassification": "E4-2 网络安全应急预案",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "违法有害信息监测处置",
+    "DataClassification": "E4-3 违法有害信息监测",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "舆情态势监测预警",
+    "DataClassification": "E4-3 违法有害信息监测",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "僵木蠕监控信息",
+    "DataClassification": "E4-5 网络威胁数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "移动恶意软件监控信息",
+    "DataClassification": "E4-5 网络威胁数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "IDC/ISP 告警信息",
+    "DataClassification": "E4-5 网络威胁数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "安全事件记录",
+    "DataClassification": "E4-5 网络威胁数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "产品 ID",
+    "DataClassification": "F1-1 产品信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "套餐设置",
+    "DataClassification": "F1-1 产品信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "销售品 ID",
+    "DataClassification": "F1-1 产品信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "渠道佣金",
+    "DataClassification": "F1-2 渠道信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "渠道业务受理",
+    "DataClassification": "F1-2 渠道信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "CP/SP结算",
+    "DataClassification": "F1-2 渠道信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "CP/SP业务订购",
+    "DataClassification": "F1-2 渠道信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "满意度调研数据",
+    "DataClassification": "F1-3 客户服务信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "分析报告",
+    "DataClassification": "F1-3 客户服务信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "实体渠道第三方监测",
+    "DataClassification": "F1-3 客户服务信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "营业厅服务质检",
+    "DataClassification": "F1-3 客户服务信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "充值数据",
+    "DataClassification": "F1-4 营销信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "精准营销",
+    "DataClassification": "F1-4 营销信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "服务应用号码",
+    "DataClassification": "F1-4 营销信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "标签",
+    "DataClassification": "F1-4 营销信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "预缴客户号码",
+    "DataClassification": "F1-4 营销信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "促销客户号码",
+    "DataClassification": "F1-4 营销信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "捆绑客户号码",
+    "DataClassification": "F1-4 营销信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "营销奖励客户号码",
+    "DataClassification": "F1-4 营销信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "终端业务指标完成数据",
+    "DataClassification": "F1-4 营销信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "终端经营日常生产数据",
+    "DataClassification": "F1-4 营销信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "业务平台文本",
+    "DataClassification": "F2 公开业务运营服务数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "业务平台视频",
+    "DataClassification": "F2 公开业务运营服务数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "业务平台知识库",
+    "DataClassification": "F2 公开业务运营服务数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "数字内容运营数据",
+    "DataClassification": "F2 公开业务运营服务数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "资费信息",
+    "DataClassification": "F2 公开业务运营服务数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "公开的业务运营数据",
+    "DataClassification": "F2 公开业务运营服务数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "战略计划",
+    "DataClassification": "G1-1 发展战略",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "战略风险评估",
+    "DataClassification": "G1-1 发展战略",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "重大事项决策",
+    "DataClassification": "G1-2 重大决策与重要会议",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "重要干部任免",
+    "DataClassification": "G1-2 重大决策与重要会议",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "重大项目投资决策",
+    "DataClassification": "G1-2 重大决策与重要会议",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "大额资金使用",
+    "DataClassification": "G1-2 重大决策与重要会议",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "会议记录",
+    "DataClassification": "G1-2 重大决策与重要会议",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "纪要",
+    "DataClassification": "G1-2 重大决策与重要会议",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "材料",
+    "DataClassification": "G1-2 重大决策与重要会议",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "报告",
+    "DataClassification": "G1-2 重大决策与重要会议",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "市场发展策略",
+    "DataClassification": "G2-1 市场策略",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "市场经营专项研究报告",
+    "DataClassification": "G2-1 市场策略",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "市场发展指导意见",
+    "DataClassification": "G2-1 市场策略",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "品牌及传播推广策略",
+    "DataClassification": "G2-2 营销管理",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "业务发展策略",
+    "DataClassification": "G2-2 营销管理",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "管理办法",
+    "DataClassification": "G2-2 营销管理",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "高端客户名单",
+    "DataClassification": "G2-2 营销管理",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "白名单",
+    "DataClassification": "G2-2 营销管理",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "资费方案",
+    "DataClassification": "G2-3 资费管理",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "资费管理",
+    "DataClassification": "G2-3 资费管理",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "产品试点方案",
+    "DataClassification": "G2-4 产品发展策略",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "试商用方案",
+    "DataClassification": "G2-4 产品发展策略",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "业务融合方案",
+    "DataClassification": "G2-4 产品发展策略",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "技术体制类规范",
+    "DataClassification": "G3-1 技术管理",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "企业标准",
+    "DataClassification": "G3-1 技术管理",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "技术成果",
+    "DataClassification": "G3-1 技术管理",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "创新成果",
+    "DataClassification": "G3-1 技术管理",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "试验测试数据",
+    "DataClassification": "G3-2 技术研究报告",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "试验分析报告",
+    "DataClassification": "G3-2 技术研究报告",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "专利申请技术交底书",
+    "DataClassification": "G3-3 专利相关信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "专利布局相关报告",
+    "DataClassification": "G3-3 专利相关信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "专利风险分析报告",
+    "DataClassification": "G3-3 专利相关信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "专利纠纷应对策略",
+    "DataClassification": "G3-3 专利相关信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "运行管理相关规程",
+    "DataClassification": "G4 运行管理类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "运行管理相关操作指南",
+    "DataClassification": "G4 运行管理类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "运行管理相关计划",
+    "DataClassification": "G4 运行管理类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "公司年度预算",
+    "DataClassification": "G5-1 财务预算",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "集团公司各部门年度预算",
+    "DataClassification": "G5-1 财务预算",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "季度滚动预算",
+    "DataClassification": "G5-1 财务预算",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "关联交易额度",
+    "DataClassification": "G5-1 财务预算",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "金融投资计划",
+    "DataClassification": "G5-1 财务预算",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "信息披露相关材料",
+    "DataClassification": "G5-2 业绩披露",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "业绩披露信息",
+    "DataClassification": "G5-2 业绩披露",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "经营业绩考核办法",
+    "DataClassification": "G5-3 考核相关信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "考核结果",
+    "DataClassification": "G5-3 考核相关信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "统计快报",
+    "DataClassification": "G5-4 生产经营数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "年报数据",
+    "DataClassification": "G5-4 生产经营数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "财务报表",
+    "DataClassification": "G5-4 生产经营数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "生产经营分析材料",
+    "DataClassification": "G5-4 生产经营数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "市场经营数据",
+    "DataClassification": "G5-4 生产经营数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "市场经营分析报告",
+    "DataClassification": "G5-4 生产经营数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "IT系统生产经营报告",
+    "DataClassification": "G5-4 生产经营数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "人员管理数据",
+    "DataClassification": "G6-1 人力资源",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "机构管理数据",
+    "DataClassification": "G6-1 人力资源",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "劳动用工管理数据",
+    "DataClassification": "G6-1 人力资源",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "薪酬管理数据",
+    "DataClassification": "G6-1 人力资源",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "收入",
+    "DataClassification": "G6-2 财务信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "利润",
+    "DataClassification": "G6-2 财务信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "预算",
+    "DataClassification": "G6-2 财务信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "决算数据",
+    "DataClassification": "G6-2 财务信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "审计",
+    "DataClassification": "G6-3 监督管理信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "纪检",
+    "DataClassification": "G6-3 监督管理信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "巡视",
+    "DataClassification": "G6-3 监督管理信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "监督管理要求",
+    "DataClassification": "G6-3 监督管理信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "监督管理决定",
+    "DataClassification": "G6-3 监督管理信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "监督管理意见",
+    "DataClassification": "G6-3 监督管理信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "过程底稿",
+    "DataClassification": "G6-3 监督管理信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "结果报告",
+    "DataClassification": "G6-3 监督管理信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "通报",
+    "DataClassification": "G6-3 监督管理信息",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "邮件",
+    "DataClassification": "G6-4 办公自动化",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "行政文件",
+    "DataClassification": "G6-4 办公自动化",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "签报",
+    "DataClassification": "G6-4 办公自动化",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "采购招标的技术规范",
+    "DataClassification": "G6-5-1 招投标数据（分公开前后）",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "招标及采购该过程",
+    "DataClassification": "G6-5-1 招投标数据（分公开前后）",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "投标",
+    "DataClassification": "G6-5-1 招投标数据（分公开前后）",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "采购订单",
+    "DataClassification": "G6-5-2 物资数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "物资数量",
+    "DataClassification": "G6-5-2 物资数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "合作方信息",
+    "DataClassification": "G6-5-3 业务合作类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "合同台账",
+    "DataClassification": "G6-5-3 业务合作类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "采购合同（协议）",
+    "DataClassification": "G6-5-3 业务合作类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "供应商考核",
+    "DataClassification": "G6-5-3 业务合作类数据",
+    "applicableSceneType": [
+      1
+    ]
+  },
+  {
+    "DataElement": "音视频",
+    "DataClassification": "H1 合作方提供数据",
+    "applicableSceneType": [
+      1
+    ]
+  }
+]
