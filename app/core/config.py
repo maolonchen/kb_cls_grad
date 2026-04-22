@@ -126,7 +126,7 @@ class AsyncEmbeddingConfig:
 #     collection_name: ClassVar[str] = "knowledge_base"
 class DatabaseConfig:
     # 数据库配置
-    host: ClassVar[str] = "192.168.10.15"  # Milvus服务器地址
+    host: ClassVar[str] = "xxx"  # Milvus服务器地址
     port: ClassVar[str] = "19530"          # Milvus gRPC端口
     uri: ClassVar[str] = f"http://{host}:{port}"  # 用于MilvusClient连接
     collection_name: ClassVar[str] = "knowledge_base"
@@ -176,7 +176,7 @@ class DataElementMatchConfig:
 
 class AlgorithmInitConfig:
     # 算法初始化配置
-    init_api_url: ClassVar[str] = "http://192.168.10.134:5000000/scip/Common/v1/Specification/aiAlgorithmInitiation"  # 5000
+    init_api_url: ClassVar[str] = "http://xxx:5000000/scip/Common/v1/Specification/aiAlgorithmInitiation"  # 5000
     check_interval: ClassVar[int] = 180  # 3分钟检查间隔（秒）
     retry_count: ClassVar[int] = 5       # 每个回合尝试次数
     unhealthy_wait_time: ClassVar[int] = 300  # 不健康等待时间（5分钟）
@@ -200,7 +200,7 @@ class KafkaConfig:
     # Kafka配置
     enable: ClassVar[bool] = False  # 默认禁用 Kafka，用于测试环境
     bootstrap_servers: ClassVar[List[str]] = ["xxx:39092"]
-    sasl_plain_username: ClassVar[str] = "sw"
+    sasl_plain_username: ClassVar[str] = "xxx"
     sasl_plain_password: ClassVar[str] = "xxx"
     security_protocol: ClassVar[str] = "xxx"
     sasl_mechanism: ClassVar[str] = "xxx"
