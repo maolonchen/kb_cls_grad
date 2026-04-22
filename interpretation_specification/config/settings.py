@@ -55,25 +55,20 @@ def get_dynamic_xls_path(specification_u_id=None):
 class EmbeddingConfig:
     """嵌入服务配置类"""
     api_url: ClassVar[str] = os.getenv(
-        "EMBEDDING_API_URL", "http://192.168.101.113:9998/v1/embeddings")
+        "EMBEDDING_API_URL", "http://xxx:9998/v1/embeddings")
     model: ClassVar[str] = os.getenv("EMBEDDING_MODEL", "qwen3-embedding-8b")
 
+
 # 数据库配置
-# DB_PATH = os.path.join(PROJECT_ROOT, 'db/milvus_excel_grading.db')
 DB_HOST = "192.168.10.15"  # Milvus服务器地址
 DB_PORT = "19530"          # Milvus gRPC端口
 DB_PATH = f"http://{DB_HOST}:{DB_PORT}"  # Standalone Milvus连接地址
 GRAD_COLLECTION_NAME = 'excel_grading_collection'
 
-# LLM配置
-# LLM_API_URL = "http://192.168.101.113:8000/v1/chat/completions"
-# MODEL_NAME = "qwen3-32b"
 
-LLM_API_URL = "http://192.168.101.113:11434/v1/chat/completions"
+LLM_API_URL = "http://xxx:11434/v1/chat/completions"
 MODEL_NAME = "qwen2.5-7b"
 
-# LLM_API_URL = "https://u343777-b730-b26a2498.westx.seetacloud.com:8443/v1/chat/completions"
-# MODEL_NAME = "/root/autodl-tmp/model/Qwen/Qwen3-8B"
 
 HEADERS = {
     "Content-Type": "application/json",
@@ -112,7 +107,7 @@ class BM25Config:
     
 class EmbeddingConfig:
     # 嵌入模型配置
-    api_url: ClassVar[str] = "http://192.168.101.113:9998/v1/embeddings"  # siweicn
+    api_url: ClassVar[str] = "http://xxx:9998/v1/embeddings"  # siweicn
     headers: ClassVar[Dict[str, Any]] = {
         "Content-Type": "application/json",
         # "Authorization": f"Bearer ???"
