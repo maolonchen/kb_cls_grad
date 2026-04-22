@@ -30,17 +30,15 @@ from src.utils.logger import setup_logger
 
 logger = setup_logger(__name__)
 
-# 初始化 Kafka Producer
-# producer = KafkaProducer(bootstrap_servers=['kafka1:9092'])  # 内部 kafka 暂停使用
-# producer = None
+
 try:
     if ENABLE_KAFKA:
         producer = KafkaProducer(
-            bootstrap_servers=['192.168.10.15:39092'],
-            sasl_plain_username='sw',
-            sasl_plain_password='siweicn123',
-            security_protocol='SASL_PLAINTEXT',
-            sasl_mechanism='PLAIN',
+            bootstrap_servers=['xxx:39092'],
+            sasl_plain_username='xxx',
+            sasl_plain_password='xxx',
+            security_protocol='xxx',
+            sasl_mechanism='xxx',
             value_serializer=lambda v: json.dumps(v, ensure_ascii=False).encode('utf-8')
         )
         logger.info("Kafka Producer 初始化成功")
