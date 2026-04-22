@@ -4,7 +4,7 @@ from typing import ClassVar, Dict, Any, List
 
 
 class MinerUConfig:
-    url: ClassVar[str] = "http://192.168.101.113:8003/file_parse"
+    url: ClassVar[str] = "http://xxx:8003/file_parse"
     output_dir: ClassVar[str] = "./processed"
     lang_list: ClassVar[List[str]] = ["ch", "en"]
     backend: ClassVar[str] = "pipeline"
@@ -34,18 +34,14 @@ class MinerUConfig:
 
 
 class ChatLLMConfig:
-    # siweicn 32b
-    url: ClassVar[str] = "http://192.168.101.113:8000/v1/chat/completions"
-    # url: ClassVar[str] = "http://192.168.101.15:8000/v1/chat/completions"  # siweicn 32b
-    # url: ClassVar[str] = "http://192.168.101.113:11434/v1/chat/completions"  # siweicn 8b
-    # url: ClassVar[str] = "http://192.168.10.15:11434/v1/chat/completions"  # siweicn 8b
+    # 32b
+    url: ClassVar[str] = "http://xxx:8000/v1/chat/completions"
 
     headers: ClassVar[Dict[str, Any]] = {
         "Content-Type": "application/json",
     }
 
-    model_name: ClassVar[str] = "qwen3-32b"  # siweicn
-    # model_name: ClassVar[str] = "qwen2.5-7b"  # siweicn
+    model_name: ClassVar[str] = "qwen3-32b"
 
     temperature: ClassVar[float] = 0.2
     top_p: ClassVar[float] = 0.8
@@ -71,39 +67,6 @@ class ChatLLMConfig:
             "chat_template_kwargs": cls.chat_template_kwargs,
             "stream": False,
         }
-
-# # 硅基模型
-# class ChatLLMConfig:
-#     url: ClassVar[str] = "https://api.siliconflow.cn/v1/chat/completions"  # 8b
-#     headers: ClassVar[Dict[str, Any]] = {
-#         "Content-Type": "application/json",
-#         "Authorization": f"Bearer ???"
-#     }
-#     model_name: ClassVar[str] = "Qwen/Qwen3-8B"
-#     temperature: ClassVar[float] = 0.2
-#     top_p: ClassVar[float] = 0.8
-#     top_k: ClassVar[int] = 20
-#     max_tokens: ClassVar[int] = 4096
-#     presence_penalty: ClassVar[float] = 1.6
-#     chat_template_kwargs: ClassVar[Dict[str, Any]] = {"enable_thinking": True}
-
-#     # 异步调用相关配置
-#     max_concurrent_requests: ClassVar[int] = 4
-
-#     @classmethod
-#     def get_request_data(cls, messages: List[Dict[str, str]]) -> Dict[str, Any]:
-#         """获取完整的请求数据"""
-#         return {
-#             "model": cls.model_name,
-#             "messages": messages,
-#             "temperature": cls.temperature,
-#             "top_p": cls.top_p,
-#             "top_k": cls.top_k,
-#             "max_tokens": cls.max_tokens,
-#             "presence_penalty": cls.presence_penalty,
-#             "chat_template_kwargs": cls.chat_template_kwargs,
-#             "stream": False,
-#         }
 
 
 class ClassificationConfig:
@@ -179,7 +142,7 @@ class DataGradeConfig:
 
 class EmbeddingConfig:
     # 嵌入模型配置
-    api_url: ClassVar[str] = "http://192.168.101.113:9998/v1/embeddings"  # siweicn
+    api_url: ClassVar[str] = "http://xxx:9998/v1/embeddings"
     headers: ClassVar[Dict[str, Any]] = {
         "Content-Type": "application/json",
         # "Authorization": f"Bearer ???"
@@ -236,10 +199,10 @@ class ChunkingConfig:
 class KafkaConfig:
     # Kafka配置
     enable: ClassVar[bool] = False  # 默认禁用 Kafka，用于测试环境
-    bootstrap_servers: ClassVar[List[str]] = ["192.168.10.134:39092"]
+    bootstrap_servers: ClassVar[List[str]] = ["xxx:39092"]
     sasl_plain_username: ClassVar[str] = "sw"
-    sasl_plain_password: ClassVar[str] = "siweicn123"
-    security_protocol: ClassVar[str] = "SASL_PLAINTEXT"
-    sasl_mechanism: ClassVar[str] = "PLAIN"
-    topic: ClassVar[str] = "scip_add_knowledge_task"
+    sasl_plain_password: ClassVar[str] = "xxx"
+    security_protocol: ClassVar[str] = "xxx"
+    sasl_mechanism: ClassVar[str] = "xxx"
+    topic: ClassVar[str] = "xxx"
     partition: ClassVar[int] = 0
