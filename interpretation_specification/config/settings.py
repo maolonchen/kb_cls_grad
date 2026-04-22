@@ -107,7 +107,7 @@ class BM25Config:
     
 class EmbeddingConfig:
     # 嵌入模型配置
-    api_url: ClassVar[str] = "http://xxx:9998/v1/embeddings"  # siweicn
+    api_url: ClassVar[str] = "http://xxx:9998/v1/embeddings"
     headers: ClassVar[Dict[str, Any]] = {
         "Content-Type": "application/json",
         # "Authorization": f"Bearer ???"
