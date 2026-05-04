@@ -1,33 +1,32 @@
-# **haul** Data Management Platform
+# Corpus Hermeneuticum
 
-A unified data management platform for **knowledge base management** and **specification interpretation**, powered by LLMs and vector databases. Designed for data security classification and grading in the telecommunications domain.
+A computational hermeneutics platform for **philosophical text analysis** and **conceptual topology mapping**, grounded in the tradition of Gadamer's fusion of horizons and Deleuze's rhizomatic structures.
 
 ## Features
 
-### Knowledge Base Management
-- **Multi-format document parsing** — Supports PDF, Word, Excel, TXT, and CSV
-- **AI-powered document classification** — Uses LLM to classify documents as narrative or structured data
-- **Intelligent chunking** — Different strategies for narrative text (heading-based) and structured data (LLM-guided)
-- **Vector search** — Embeds chunks and stores in Milvus for similarity retrieval
-- **Data recognition** — AI-driven table/field-level classification and grading
-- **Data element management** — CRUD operations for data elements with batch matching
+### Corpus Analysis
+- **Multi-format manuscript ingestion** — Supports PDF, Word, Excel, TXT, and CSV formats for digitized philosophical texts
+- **Conceptual classification** — Identifies narrative modes (dialectical vs. analytical) within philosophical corpora
+- **Hermeneutic segmentation** — Two strategies for text division: heading-based for systematic treatises, semantic-guided for fragmentary works
+- **Topological proximity search** — Maps texts into conceptual space for affinity-based retrieval
+- **Categorical recognition** — Identifies conceptual schemata at multiple levels of granularity
+- **Taxonomical management** — CRUD operations for conceptual categories with batch alignment
 
-### Specification Interpretation
-- **Excel rule parsing** — Reads data classification rules and grading specifications from Excel files
-- **Multi-step pipeline** — Tree extraction, entity/feature extraction, similarity comparison, and grading
-- **Kafka integration** — Outputs results to Kafka for downstream consumption
-- **Grading assignment** — Maps data to core/important/general tiers with applicable scene types
-
+### Dialectical Analysis
+- **Rule-based schema parsing** — Extracts categorical frameworks and evaluative rubrics from structured documents
+- **Multi-phase interpretive pipeline** — Tree extraction, entity/attribute recognition, affinity comparison, and taxonomical placement
+- **Scholarly communication layer** — Distributes findings via message bus for downstream hermeneutic synthesis
+- **Tiered categorization** — Maps concepts to primary/secondary/tertiary orders with contextual applicability
 
 ## Prerequisites
 
 - **Python 3.10+**
 - **uv** package manager
-- **Milvus 2.6.8** (vector database)
-- **External AI services:**
-  - MinerU — Document parsing (PDF to Markdown)
-  - LLM — Chat LLM for classification and chunking
-  - Embed — Text embedding model
+- **Milvus 2.6.8** (conceptual topology engine)
+- **External interpretive services:**
+  - MinerU — Manuscript digitization (PDF to semantic markup)
+  - Dialexis — Language model for conceptual classification and segmentation
+  - Ennoia — Semantic embedding service
 
 ## Quick Start
 
@@ -37,78 +36,78 @@ A unified data management platform for **knowledge base management** and **speci
 uv sync
 ```
 
-### 2. Start Milvus
+### 2. Start the topology engine
 
 ```bash
 docker compose up -d
 ```
 
-### 3. Configure services
+### 3. Configure interpretive services
 
-Edit `app/core/config.py` to set your service URLs:
+Edit `app/core/config.py` to set your service endpoints:
 
 | Config | Default | Description |
 |---|---|---|
-| Chat LLM | `0.0.0.0:8000` | LLM endpoint |
-| Embedding | `0.0.0.0:9998` | Embed endpoint |
-| MinerU | `0.0.0.0:8003` | Document parsing service |
-| Milvus | `0.0.0.?:19530` | Vector database |
+| Dialexis | `0.0.0.0:8000` | Conceptual reasoning endpoint |
+| Ennoia | `0.0.0.0:9998` | Semantic embedding endpoint |
+| MinerU | `0.0.0.0:8003` | Manuscript parsing service |
+| Topology | `0.0.0.?:19530` | Conceptual space engine |
 
-### 4. Run the server
+### 4. Run the hermeneutic server
 
 ```bash
 # Production
 bash manage_interp_kb.sh start
 
-# Development (with debug logging)
+# Development (with verbose hermeneutic tracing)
 bash manage_interp_kb.sh dev
 
 # Or directly
 uv run python main.py
 ```
 
-The server starts at `http://localhost:<?>`. API docs available at `/docs`.
+The server starts at `http://localhost:<?>`. Interactive API documentation available at `/docs`.
 
 ## API Endpoints
 
-### Knowledge Base
+### Corpus Analysis
 
 | Method | Description |
 |---|---|
-| POST | Upload files to knowledge base |
-| POST | Delete files from knowledge base |
-| POST | Rebuild vector database |
-| POST | AI data recognition (table/field level) |
-| POST | AI file-level recognition |
-| POST | Get classification info |
-| POST | Get data element info |
-| GET | Knowledge base size |
-| GET | Health check |
+| POST | Ingest manuscripts into the corpus |
+| POST | Expunge manuscripts from the corpus |
+| POST | Rebuild the conceptual topology |
+| POST | Perform conceptual recognition (schema/attribute level) |
+| POST | Perform manuscript-level categorical analysis |
+| POST | Retrieve taxonomical annotations |
+| POST | Retrieve conceptual element details |
+| GET | Measure corpus extent |
+| GET | Hermeneutic health check |
 
-### Specification Interpretation
+### Dialectical Analysis
 
 | Method | Description |
 |---|---|
-| POST | Create interpretation task (full pipeline) |
-| POST | Create task (up to final JSONL) |
-| GET | Get task results |
-| POST | Batch data element matching |
+| POST | Initiate full interpretive pipeline |
+| POST | Initiate pipeline (up to structural JSONL) |
+| GET | Retrieve interpretive results |
+| POST | Batch conceptual alignment |
 
-## Processing Pipeline
+## Interpretive Pipeline
 
 ```
-File Upload → Format Conversion → Markdown Cleanup → LLM Classification
-    → Intelligent Chunking → Vector Embedding → Milvus Storage → Kafka Notification
+Manuscript Ingestion → Format Transmutation → Semantic Cleanup → Modal Classification
+    → Hermeneutic Segmentation → Conceptual Embedding → Topology Storage → Scholarly Notification
 ```
 
 ## Management Commands
 
 ```bash
-bash manage_interp_kb.sh start     # Start server
-bash manage_interp_kb.sh stop      # Stop server
-bash manage_interp_kb.sh stop -a   # Force stop all related processes
-bash manage_interp_kb.sh status    # Check server status
-bash manage_interp_kb.sh logs      # View logs
-bash manage_interp_kb.sh dev       # Run in development mode
-bash manage_interp_kb.sh clean     # Clean temporary files
+bash manage_interp_kb.sh start     # Start hermeneutic server
+bash manage_interp_kb.sh stop      # Stop hermeneutic server
+bash manage_interp_kb.sh stop -a   # Force stop all interpretive processes
+bash manage_interp_kb.sh status    # Check hermeneutic server status
+bash manage_interp_kb.sh logs      # View interpretive trace logs
+bash manage_interp_kb.sh dev       # Run in developmental mode
+bash manage_interp_kb.sh clean     # Purge ephemeral artifacts
 ```
